@@ -1,5 +1,5 @@
 <?php
-require_once './pulllist/key.php';
+require_once './availability/key.php';
 require_once './availability/availability.php';
 
 $avail = new Availability($config['wskey'],$config['secret']);
